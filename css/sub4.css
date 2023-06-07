@@ -1,0 +1,397 @@
+#new{
+    width: 50%;
+    background-color: rgb(195, 211, 206);
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 50px;
+}
+.oneclick{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 1500px;
+    background-color: rgb(45, 196, 170);
+    
+    
+}
+.twoscroll{
+    margin-left: 200px;
+    width: 1500px;
+    
+}
+.twoscroll:hover {
+    transform: scaleY(8);
+    transform-origin: top;
+    background-image: url('../img/background2.png');
+    background-size: 1515px 100%;
+background-position: center bottom;
+    
+    }
+
+#text1{
+    font-size: 40px;
+    color: white;
+}
+#button{
+    width: 0;
+    height: 0;
+    margin-top: 5%;
+    border-bottom: 20px solid transparent;
+    border-top: 40px solid skyblue;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    transform: rotate(360deg);
+    animation: moveUpDown 1s ease-in-out infinite alternate;
+    }
+    
+    @keyframes moveUpDown {
+    0% {
+    transform: translateY(0);
+    }
+    50% {
+    transform: translateY(-10px);
+    }
+    100% {
+    transform: translateY(0);
+    }
+    }
+    
+    .oneclick2{
+        margin-top: 280px;
+        margin-left: 200px;
+        width: 1500px;
+        background-color: rgb(45, 196, 170);
+    }
+    .twoscroll2{
+        width: 1500px;
+        margin-left: 200px;
+        
+        
+    }
+    .twoscroll2:hover {
+        transform: scaleY(8);
+        transform-origin: top;
+        background-image: url('../img/background3.png');
+        background-size: 1515px 100%;
+        background-position: center bottom;
+        
+        }
+    
+    #text2{
+        font-size: 40px;
+        color: white;
+    }
+    #button2{
+        width: 0;
+        height: 0;
+        margin-top: 5%;
+        border-bottom: 20px solid transparent;
+        border-top: 40px solid skyblue;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        transform: rotate(360deg);
+        animation: moveUpDown 1s ease-in-out infinite alternate;
+        }
+        
+        @keyframes moveUpDown {
+        0% {
+        transform: translateY(0);
+        }
+        50% {
+        transform: translateY(-10px);
+        }
+        100% {
+        transform: translateY(0);
+        }
+        }
+        .oneclick3{
+            margin-top: 280px;
+            margin-left: 200px;
+            width: 1500px;
+            background-color: rgb(45, 196, 170);
+        }
+        .twoscroll3{
+            width: 1500px;
+            margin-left: 200px;
+            
+            
+        }
+        .twoscroll3:hover {
+            transform: scaleY(8);
+        transform-origin: top;
+        background-image: url('../img/background4.png');
+        background-size: 1515px 100%;
+        background-position: center bottom;
+            
+            }
+        
+        #text3{
+            font-size: 40px;
+            color: white;
+        }
+        #button3{
+            width: 0;
+            height: 0;
+            margin-top: 5%;
+            border-bottom: 20px solid transparent;
+            border-top: 40px solid skyblue;
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            transform: rotate(360deg);
+            animation: moveUpDown 1s ease-in-out infinite alternate;
+            }
+            
+            @keyframes moveUpDown {
+            0% {
+            transform: translateY(0);
+            }
+            50% {
+            transform: translateY(-10px);
+            }
+            100% {
+            transform: translateY(0);
+            }
+            }
+        
+            .oneclick4{
+                margin-top: 280px;
+                margin-left: 200px;
+                width: 1500px;
+                background-color: rgb(45, 196, 170);
+            }
+            .twoscroll4{
+                width: 1500px;
+                margin-left: 200px;
+                
+                
+            }
+            .twoscroll4:hover {
+                transform: scaleY(8);
+                transform-origin: top;
+                background-image: url('../img/background5.png');
+                background-size: 1515px 100%;
+                background-position: center bottom;
+                
+                }
+            
+            #text4{
+                font-size: 40px;
+    color: white;
+            }
+            #button4{
+                width: 0;
+                height: 0;
+                margin-top: 5%;
+                border-bottom: 20px solid transparent;
+                border-top: 40px solid skyblue;
+                border-left: 30px solid transparent;
+                border-right: 30px solid transparent;
+                transform: rotate(360deg);
+                animation: moveUpDown 1s ease-in-out infinite alternate;
+                }
+                
+                @keyframes moveUpDown {
+                0% {
+                transform: translateY(0);
+                }
+                50% {
+                transform: translateY(-10px);
+                }
+                100% {
+                transform: translateY(0);
+                }
+                }
+
+@media (max-width: 1080px){
+
+    .oneclick{
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 70%;
+        background-color: rgb(45, 196, 170);
+        height: 0.5%;
+    }
+    .twoscroll{
+        width: 70%;
+        margin-left: 10%;
+        
+        
+    }
+    .twoscroll:hover {
+        transform: scaleY(5);
+        transform-origin: top;
+        background-image: url('../img/background2.png');
+        background-size: 100% 100%;
+        
+        }
+    
+    #text1{
+        font-size: 20px;
+    }
+    #button{
+        width: 0;
+        height: 0;
+        margin-top: 5%;
+        border-bottom: 20px solid transparent;
+        border-top: 40px solid skyblue;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        transform: rotate(360deg);
+        animation: moveUpDown 1s ease-in-out infinite alternate;
+        }
+        
+        @keyframes moveUpDown {
+        0% {
+        transform: translateY(0);
+        }
+        50% {
+        transform: translateY(-10px);
+        }
+        100% {
+        transform: translateY(0);
+        }
+        }
+        
+        .oneclick2{
+            margin-top: 30%;
+            margin-left: 10%;
+            width: 70%;
+            background-color: rgb(45, 196, 170);
+            height: 0.5%;
+        }
+        .twoscroll2{
+            width: 70%;
+            margin-left: 10%;
+            
+            
+        }
+        .twoscroll2:hover {
+            transform: scaleY(5);
+            transform-origin: top;
+            background-image: url('../img/background3.png');
+            background-size: 100% 100%;
+            
+            }
+        
+        #text2{
+            font-size: 15px;
+        }
+        #button2{
+            width: 0;
+            height: 0;
+            margin-top: 5%;
+            border-bottom: 20px solid transparent;
+            border-top: 40px solid skyblue;
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            transform: rotate(360deg);
+            animation: moveUpDown 1s ease-in-out infinite alternate;
+            }
+            
+            @keyframes moveUpDown {
+            0% {
+            transform: translateY(0);
+            }
+            50% {
+            transform: translateY(-10px);
+            }
+            100% {
+            transform: translateY(0);
+            }
+            }
+            .oneclick3{
+                margin-top:30%;
+                margin-left: 10%;
+                width: 70%;
+                background-color: rgb(45, 196, 170);
+                height: 0.5%;
+            }
+            .twoscroll3{
+                width: 70%;
+                margin-left: 10%;
+                
+                
+            }
+            .twoscroll3:hover {
+                transform: scaleY(5);
+                transform-origin: top;
+                background-image: url('../img/background4.png');
+                background-size: 100% 100%;
+                
+                }
+            
+            #text3{
+                font-size: 20px;
+            }
+            #button3{
+                width: 0;
+                height: 0;
+                margin-top: 5%;
+                border-bottom: 20px solid transparent;
+                border-top: 40px solid skyblue;
+                border-left: 30px solid transparent;
+                border-right: 30px solid transparent;
+                transform: rotate(360deg);
+                animation: moveUpDown 1s ease-in-out infinite alternate;
+                }
+                
+                @keyframes moveUpDown {
+                0% {
+                transform: translateY(0);
+                }
+                50% {
+                transform: translateY(-10px);
+                }
+                100% {
+                transform: translateY(0);
+                }
+                }
+            
+                .oneclick4{
+                    margin-top:30%;
+                    margin-left: 10%;
+                    width: 70%;
+                    background-color: rgb(45, 196, 170);
+                    height: 0.5%;
+                }
+                .twoscroll4{
+                    width: 70%;
+                    margin-left: 10%;
+                    
+                    
+                }
+                .twoscroll4:hover {
+                    transform: scaleY(5);
+                    transform-origin: top;
+                    background-image: url('../img/background5.png');
+                    background-size: 100% 100%;
+                    
+                    }
+                
+                #text4{
+                    font-size: 20px;
+                }
+                #button4{
+                    width: 0;
+                    height: 0;
+                    margin-top: 5%;
+                    border-bottom: 20px solid transparent;
+                    border-top: 40px solid skyblue;
+                    border-left: 30px solid transparent;
+                    border-right: 30px solid transparent;
+                    transform: rotate(360deg);
+                    animation: moveUpDown 1s ease-in-out infinite alternate;
+                    }
+                    
+                    @keyframes moveUpDown {
+                    0% {
+                    transform: translateY(0);
+                    }
+                    50% {
+                    transform: translateY(-10px);
+                    }
+                    100% {
+                    transform: translateY(0);
+                    }
+                    }
+}

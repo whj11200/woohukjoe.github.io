@@ -1,0 +1,560 @@
+#new{
+    width: 50%;
+    background-color: rgb(195, 211, 206);
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 50px;
+}
+#bar{
+    width: 85%;
+    height: 15%;
+    position: absolute;
+    top: 30%;
+    left: 9%;
+}
+#bar2{
+    width: 85%;
+    height: 15%;
+    position: absolute;
+    top: 48%;
+    left: 9%;
+}
+#bar3{
+    width: 85%;
+    height: 15%;
+    position: absolute;
+    top: 66%;
+    left: 9%;
+    filter: grayscale();
+}
+#bar4{
+    width: 85%;
+    height: 15%;
+    position: absolute;
+    top: 84%;
+    left: 9%;
+    filter: grayscale();
+}
+#googi
+{
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    left: 10%;
+    top: 35.5%;
+}
+#googi2
+{
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    left: 10%;
+    top: 53%;
+}
+#googi3
+{
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    left: 11%;
+    top: 70.5%;
+    animation: glowing 3s ease-in-out infinite;
+}
+#googi4
+{
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    left: 11%;
+    top: 89%;
+    animation: glowing 3s ease-in-out infinite;
+}
+@keyframes glowing {
+    0% {
+        opacity: 0.2;
+        text-shadow: none;
+    }
+    50% {
+        opacity: 1;
+        text-shadow: 0 0 10px rgba(255, 239, 9, 0.8), 0 0 20px rgba(253, 187, 5, 0.6), 0 0 30px rgba(5, 253, 158, 0.4), 0 0 40px rgba(5, 253, 158, 0.2);
+    }
+    100% {
+        opacity: 0.2;
+        text-shadow: none;
+    }
+}
+
+#imgimg {
+    width: 8%;
+    height: 12%;
+    position: absolute;
+    top: 31%;
+    left: 15%;
+
+    /* 애니메이션을 함께 적용 */
+    animation: shake 0.5s infinite, light-off 0.5s infinite;
+}
+
+@keyframes light-off {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5%); }
+    75% { transform: translateX(5%); }
+    100% { transform: translateX(0); }
+}
+
+
+#imgimg2 {
+    width: 8%;
+    height: 12%;
+    position: absolute;
+    top: 49%;
+    left: 15%;
+
+    /* 좌우로 이동하고 동시에 기울어지는 애니메이션 */
+    animation: shake 0.5s infinite, light-off 0.5s infinite;
+}
+
+@keyframes move-tilt {
+    0% { transform: translateX(0) rotate(0); }
+    25% { transform: translateX(30%) rotate(-5deg); }
+    50% { transform: translateX(20%) rotate(0); }
+    75% { transform: translateX(10%) rotate(5deg); }
+    100% { transform: translateX(0) rotate(0); }
+}
+#imgimg3{
+    width: 8%;
+    height: 12%;
+    position: absolute;
+    top: 67%;
+    left: 15%;
+}
+#imgimg4{
+    width: 8%;
+    height: 12%;
+    position: absolute;
+    top: 86%;
+    left: 15%;
+}
+#imgimg3:hover{
+    transform: scale(1.2);
+}
+#imgimg4:hover{
+    transform: scale(1.2);
+}
+#button1{
+    width: 5%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 40%;
+    left: 30%;
+}
+#button1:hover {
+    background-color: rgb(5, 253, 158); /* 호버 시 배경색 변경 */
+    color: aliceblue;
+}
+#button2{
+    width: 5%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 40%;
+    left: 38%;
+}
+#button3{
+    width: 5%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 58%;
+    left: 30%;
+}
+#button4{
+    width: 5%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 58%;
+    left: 38%;
+}
+#button5{
+    width: 6%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 76%;
+    left: 30%;
+}
+#button5:hover{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+#button6{
+    width: 5%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 76%;
+    left: 38%;
+}
+#button7{
+    width: 5.5%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 76%;
+    left: 45%;
+}
+#button8{
+    width: 6%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 95%;
+    left: 30%;
+}
+#button8:hover{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+#button9{
+    width: 6%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 95%;
+    left: 37.5%;
+}
+#button9:hover{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+#button10{
+    width: 5.5%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 95%;
+    left: 45%;
+}
+#button10:hover{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+#button6:hover{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+#button7:hover{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+#button3:hover {
+    background-color: rgb(5, 253, 158); /* 호버 시 배경색 변경 */
+    color: aliceblue;
+}
+#button4:hover {
+    background-color: rgb(5, 253, 158); /* 호버 시 배경색 변경 */
+    color: aliceblue;
+}
+#button2:hover {
+    background-color: rgb(5, 253, 158); /* 호버 시 배경색 변경 */
+    color: aliceblue;
+}
+#index{
+    position: absolute;
+    left: 30%;
+    top: 31%;
+}
+#index2{
+    position: absolute;
+    left: 30%;
+    top: 49%;
+}
+#index3{
+    position: absolute;
+    left: 30%;
+    top: 67%;
+}
+#index4{
+    position: absolute;
+    left: 30%;
+    top: 86%;
+}
+@media (max-width: 1080px){
+    #bar{
+        width: 90%;
+        height: 10%;
+        top: 20%;
+        left: 5.5%;
+    }
+    #bar2{
+        position: absolute;
+        top: 35%;
+        left: 5.5%;
+        width: 90%;
+        height: 10%;
+    }
+    #bar3{
+        position: absolute;
+        top: 50%;
+        left: 5.5%;
+        width: 90%;
+        height: 10%;
+        filter: grayscale();
+    }
+    #bar4{
+        position: absolute;
+        top: 66%;
+        left: 5.5%;
+        width: 90%;
+        height: 10%;
+        filter: grayscale();
+    }
+#googi
+{
+    position: absolute;
+    left: 7%;
+    top: 24%;
+    font-size: 15px;
+}
+#googi2
+{
+    position: absolute;
+    left: 7%;
+    top: 39%;
+    font-size: 15px;
+}
+#googi3
+{
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    left: 7%;
+    top: 52.5%;
+    animation: glowing 3s ease-in-out infinite;
+}
+#googi4
+{
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    left: 7%;
+    top: 69%;
+    animation: glowing 3s ease-in-out infinite;
+}
+#imgimg{
+    width: 22%;
+    height: 9%;
+    position: absolute;
+    top: 20.5%;
+    left: 19%;
+}
+#imgimg2{
+    width: 22%;
+    height: 9%;
+    position: absolute;
+    top: 35%;
+    left: 19%;
+}
+#imgimg3{
+    width: 22%;
+    height: 9%;
+    position: absolute;
+    top: 50.5%;
+    left: 18%;
+}
+#imgimg4{
+    width: 22%;
+    height: 9%;
+    position: absolute;
+    top: 66.5%;
+    left: 18%;
+}
+#index{
+    position: absolute;
+    left: 45%;
+    top: 21%;
+    font-size: 15px;
+}
+#index2{
+    position: absolute;
+    left: 47%;
+    top: 36%;
+    font-size: 15px;
+}
+#index3{
+    position: absolute;
+    left: 44%;
+    top: 51%;
+    font-size: 10px;
+}
+#index4{
+    position: absolute;
+    left: 44%;
+    top: 67%;
+    font-size: 10px;
+}
+#button1{
+    width: 20%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 26%;
+    left: 42%;;
+}
+#button3{
+    width: 20%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 41%;
+    left: 42%;;
+}
+#button2{
+    width: 20%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 26%;
+    left: 65%;;
+}
+#button4{
+    width: 20%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 41%;
+    left: 65%;;
+}
+#button5{
+    width: 20%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 56%;
+    left: 41.5%;
+}
+#button6{
+    width: 12%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 56%;
+    left: 63%;
+}
+#button7{
+    width: 15%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 56%;
+    left: 78%;
+}
+#button8{
+    width: 12%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 72%;
+    left: 43%;
+}
+#button9{
+    width: 23%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 72%;;
+    left: 56%;
+}
+#button10{
+    width: 15%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 72%;
+    left: 80%;
+}
+#button2:hover {
+    background-color: rgb(5, 253, 158); /* 호버 시 배경색 변경 */
+    color: aliceblue;
+}
+#button1:hover {
+    background-color: rgb(5, 253, 158); /* 호버 시 배경색 변경 */
+    color: aliceblue;
+}
+
+}

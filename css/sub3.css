@@ -1,0 +1,233 @@
+#new{
+    width: 50%;
+    background-color: rgb(195, 211, 206);
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 50px;
+}
+#texts{
+
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+#testimg{
+    position: absolute;
+    margin-left: 500px;
+}
+#cheackstar {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 400px;
+    cursor: pointer;
+}
+#cheackstar2 {
+    position: absolute;
+    margin-left: 555px;
+    margin-top: 400px;
+    cursor: pointer;
+}
+#cheackstar3 {
+    position: absolute;
+    margin-left: 610px;
+    margin-top: 400px;
+    cursor: pointer;
+}
+#cheackstar4 {
+    position: absolute;
+    margin-left: 665px;
+    margin-top: 400px;
+    cursor: pointer;
+}
+#cheackstar5 {
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 400px;
+    cursor: pointer;
+}
+#index{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 400px;
+    font-size: 30px;
+}
+
+#cheackstar:active {
+    background-image: url('../img/star2.png');
+}
+#cheackstar2:active {
+    background-image: url('../img/star2.png');
+}
+#cheackstar3:active {
+    background-image: url('../img/star2.png');
+}
+#cheackstar4:active {
+    background-image: url('../img/star2.png');
+}
+#cheackstar5:active {
+    background-image: url('../img/star2.png');
+}
+#texting
+{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 500px;
+    width: 900px;
+    height: 200px;
+    background-color: rgb(216, 216, 216);
+}   
+
+#fixedimg2{
+    position: fixed;
+    margin-left: 1500px;
+    margin-top: 400px;
+}
+
+
+#fixedimg3{
+    
+    position: fixed;
+}
+#fixedimg4{
+    position: fixed;
+    margin-left: 1500px;
+    
+}
+#testimg2{
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 900px;
+}
+#stars2{
+    margin-top: 930px;
+}
+@media (max-width: 1080px){
+    #new{
+        width: 50%;
+        background-color: rgb(195, 211, 206);
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 5%;
+        border-radius: 50px;
+    }
+    #texts{
+        margin-top: 10px;
+        font-size: 10%;
+        text-align: center;
+    }
+    #testimg{
+        margin: auto;
+        width: 75%;
+        padding-left: 11%;
+        margin-top: 10%;
+    }
+    #cheackstar {
+        width: 10%;
+        margin: auto;
+        position: absolute;
+        padding-left: 11%;
+        margin-top: 44%;
+        cursor: pointer;
+    }
+    #cheackstar2 {
+        width: 10%;
+        margin: auto;
+        position: absolute;
+        padding-left: 21%;
+        margin-top: 44%;
+        cursor: pointer;
+    }
+    #cheackstar3 {
+        width: 10%;
+        margin: auto;
+        position: absolute;
+        padding-left: 31%;
+        margin-top: 44%;
+        cursor: pointer;
+    }
+    #cheackstar4 {
+        width: 10%;
+        margin: auto;
+        position: absolute;
+        padding-left: 41%;
+        margin-top: 44%;
+        cursor: pointer;
+    }
+    #cheackstar5 {
+        width: 10%;
+        margin: auto;
+        position: absolute;
+        padding-left: 51%;
+        margin-top: 44%;
+        cursor: pointer;
+    }
+    #index{
+        margin: auto;
+        position: absolute;
+        padding-left: 61%;
+        margin-top: 45%;
+        font-size: 18px;
+        
+    }
+    
+    #cheackstar:active {
+        background-image: url('../img/star2.png');
+        background-size: 100% 100%;
+    }
+    #cheackstar2:active {
+        background-image: url('../img/star2.png');
+    }
+    #cheackstar3:active {
+        background-image: url('../img/star2.png');
+    }
+    #cheackstar4:active {
+        background-image: url('../img/star2.png');
+    }
+    #cheackstar5:active {
+        background-image: url('../img/star2.png');
+    }
+    #texting
+    {
+        margin: auto;
+        position: absolute;
+        margin-top: 60%;
+        padding-left: 20%;
+        width: 75%;
+        height: 20%;
+        background-color: rgb(216, 216, 216);
+        color: rgb(0, 0, 0);
+        font-size: 20px
+    }
+    
+    #fixedimg2{
+        margin: auto;
+        position: fixed;
+        width: 30%;
+        padding-left: 75%;
+        margin-top: 50%;
+    }
+    #fixedimg3{
+        position: fixed;
+        width: 20%;
+    }
+    #fixedimg4{
+        margin: auto;
+        position: fixed;
+        width: 30%;
+        padding-left: 75%;
+        
+    }
+    #testimg2{
+        margin: auto;
+        position: absolute;
+        margin-top: 150%;
+        padding-left: 0%;
+        width: 100%;
+        height: 40%;
+        font-size: 20px
+    }
+    #stars2{
+        margin-top: 930px;
+    }
+}

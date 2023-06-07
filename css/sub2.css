@@ -1,0 +1,435 @@
+#new{
+    width: 50%;
+    background-color: rgb(195, 211, 206);
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 50px;
+}
+#sss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#help2{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+@keyframes imageAnimation {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    50% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#let {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 50px;
+    animation: imageAnimation 2s infinite;
+}
+
+#let2 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 40px;
+    animation: imageAnimation 2s infinite;
+}
+
+#let3 {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 100px;
+    width: 60px;
+    animation: imageAnimation 2s infinite;
+    
+}
+.goodbackground {
+    position: absolute;
+    top: 930px;
+    left: 405px;
+    width: 70px;
+    height: 50px;
+    border-radius: 20%;
+    background-color: rgb(190, 190, 190);
+    z-index: 1;
+}
+
+#good {
+    position: absolute;
+    top: 930px;
+    left: 410px;
+    z-index: 2;
+    transition: transform 0.1s ease-in-out;
+}
+
+#good:active {
+    background-image: url('../img/goo2.png');
+    animation: bounceAnimation 0.4s infinite;
+}
+
+@keyframes bounceAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+#text{
+    font-size: 40px;
+    position: absolute;
+    color: rgb(248, 248, 248);
+    top: 930px;
+    left: 300px;
+    font-weight: bold;
+    
+}
+#help3{
+    margin-left: 150px;
+    margin-top: 412px;
+
+}
+.goodbackground2 {
+    position: absolute;
+    top: 930px;
+    left: 980px;
+    width: 70px;
+    height: 50px;
+    border-radius: 20%;
+    background-color: rgb(190, 190, 190);
+    z-index: 1;
+}
+
+#good2 {
+    position: absolute;
+    top: 930px;
+    left: 985px;
+    z-index: 2;
+    transition: transform 1s ease-in-out;
+}
+
+#good2:active {
+    background-image: url('../img/goo2.png');
+    animation: bounceAnimation 0.4s infinite;
+}
+#twogood {
+    position: absolute;
+    color: red;
+    font-size: 100px;
+    margin-left: 200px;
+    margin-top: 350px;
+    animation: bounce2Animation 1s linear infinite;
+    transform-origin: center;
+}
+
+@keyframes bounce2Animation {
+    0% {
+        transform: translateX(0) rotate(0);
+    }
+    25% {
+        transform: translateX(-30px) rotate(-30deg);
+    }
+    50% {
+        transform: translateX(0) rotate(0);
+    }
+    75% {
+        transform: translateX(30px) rotate(30deg);
+    }
+    100% {
+        transform: translateX(0) rotate(0);
+    }
+}
+#text2{
+    font-size: 40px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 927px;
+    left: 870px;
+    font-weight: bold;
+}
+
+#lasti{
+    
+    margin-left: 100px;
+    margin-top: 280px;
+}
+#three{
+    position: absolute;
+    color:rgb(30, 136, 118);
+    font-size: 100px;
+    margin-left: 100px;
+    margin-top: 200px;
+    animation: textAnimation 2s infinite;
+}
+
+@keyframes textAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#text3 {
+    font-size: 40px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 930px;
+    left: 1530px;
+    font-weight: bold;
+}
+.goodbackground3{
+    position: absolute;
+    top: 930px;
+    left: 1640px;
+    width: 70px;
+    height: 50px;
+    border-radius: 20%;
+    background-color: rgb(190, 190, 190);
+    z-index: 1;
+}
+#good3{ position: absolute;
+    top: 930px;
+    left: 1650px;
+    z-index: 2;
+    transition: transform 1s ease-in-out;
+}
+#good3:active {
+    background-image: url('../img/goo2.png');
+    animation: bounceAnimation 0.4s infinite;
+}
+
+
+@media (max-width: 1080px){
+    #new{
+        width: 50%;
+        background-color: rgb(195, 211, 206);
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 5%;
+        border-radius: 50px;
+    }
+    #help2{
+        margin-top: 10%;
+        margin-left: 4.5%;
+    }
+    @keyframes imageAnimation {
+        0% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        50% {
+            opacity: 0;
+            transform: translateY(-50px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    #let {
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 15%;
+        animation: imageAnimation 2s infinite;
+    }
+    
+    #let2 {
+        position: absolute;
+        margin-top: 32%;
+        margin-left: 2%;
+        width: 40px;
+        animation: imageAnimation 2s infinite;
+    }
+    
+    #let3 {
+        position: absolute;
+        margin-top: 32%;
+        margin-left: 30%;
+        width: 60px;
+        animation: imageAnimation 2s infinite;
+        
+    }
+    .goodbackground {
+        position: absolute;
+        left: 75%;
+        top: 95%;
+        width: 70px;
+        height: 50px;
+        border-radius: 20%;
+        background-color: rgb(190, 190, 190);
+        z-index: 1;
+    }
+
+    #good {
+        position: absolute;
+        left: 75%;
+        top: 95%;
+        z-index: 2;
+        transition: transform 0.1s ease-in-out;
+    }
+    
+    #good:active {
+        background-image: url('../img/goo2.png');
+        animation: bounceAnimation 0.4s infinite;
+    }
+    
+    @keyframes bounceAnimation {
+        0% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(-10px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+    #text{
+        font-size: 40px;
+        position: absolute;
+        color: rgb(248, 248, 248);
+        top: 94%;
+        left: 54%;
+        font-weight: bold;
+        
+    }
+    #help3{
+        width: 400px;
+        margin-left: 1%;
+        margin-top: 5%;
+    }
+    .goodbackground2 {
+        position: absolute;
+        left: 75%;
+        top: 135%;
+        width: 70px;
+        height: 50px;
+        border-radius: 20%;
+        background-color: rgb(190, 190, 190);
+        z-index: 1;
+    }
+
+    #good2 {
+        position: absolute;
+        left: 75%;
+        top: 135%;
+        z-index: 2;
+        transition: transform 1s ease-in-out;
+    }
+    
+    #good2:active {
+        background-image: url('../img/goo2.png');
+        animation: bounceAnimation 0.4s infinite;
+    }
+    #twogood {
+        position: absolute;
+        color: red;
+        font-size: 100px;
+        margin-left: 1%;
+        margin-top: 5%;
+        animation: bounce2Animation 1s linear infinite;
+        transform-origin: center;
+    }
+    
+    @keyframes bounce2Animation {
+        0% {
+            transform: translateX(0) rotate(0);
+        }
+        25% {
+            transform: translateX(-30px) rotate(-30deg);
+        }
+        50% {
+            transform: translateX(0) rotate(0);
+        }
+        75% {
+            transform: translateX(30px) rotate(30deg);
+        }
+        100% {
+            transform: translateX(0) rotate(0);
+        }
+    }
+    #text2{
+        font-size: 40px;
+        position: absolute;
+        color: rgb(0, 0, 0);
+        left: 54%;
+        top: 134.5%;
+        font-weight: bold;
+    }
+    
+    #lasti{
+        width: 457px;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    #three{
+        position: absolute;
+        color:rgb(30, 136, 118);
+        font-size: 100px;
+        margin-left: 5%;
+        margin-top: 5%;
+        animation: textAnimation 2s infinite;
+    }
+
+    @keyframes textAnimation {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(0.8);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    
+    #text3 {
+        font-size: 40px;
+        position: absolute;
+        color: rgb(0, 0, 0);
+        left: 55%;
+        top: 175%;
+        font-weight: bold;
+    }
+    .goodbackground3{
+        position: absolute;
+        left: 75%;
+        top: 175%;
+        width: 70px;
+        height: 50px;
+        border-radius: 20%;
+        background-color: rgb(190, 190, 190);
+        z-index: 1;
+    }
+    #good3{ position: absolute;
+        left: 75%;
+        top: 175%;
+        z-index: 2;
+        transition: transform 1s ease-in-out;
+    }
+    #good3:active {
+        background-image: url('../img/goo2.png');
+        animation: bounceAnimation 0.4s infinite;
+    }
+
+}
